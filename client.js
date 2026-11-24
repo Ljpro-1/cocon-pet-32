@@ -4,14 +4,8 @@
 // PARTIE 1/3
 // ============================================================
 
-import { database } from "./firebase-config.js";
+import { database, ref, set, push, onValue, remove } from "./firebase-config.js";
 
-import {
-    ref,
-    push,
-    onValue,
-    remove
-} from "firebase/database";
 
 // ============================================================
 // VARIABLES
